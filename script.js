@@ -1,4 +1,4 @@
-// Function to validate Full Name field
+
 function validateFullName() {
   var fullNameInput = document.getElementById("full-name");
   var fullNameError = document.getElementById("full-name-error");
@@ -16,7 +16,6 @@ function validateFullName() {
   return true;
 }
 
-// Function to validate Password field
 function validatePassword() {
   var passwordInput = document.getElementById("password");
   var passwordError = document.getElementById("password-error");
@@ -34,7 +33,6 @@ function validatePassword() {
   return true;
 }
 
-// Function to validate Confirm Password field
 function validateConfirmPassword() {
   var confirmPasswordInput = document.getElementById("confirm-password");
   var confirmPasswordError = document.getElementById("confirm-password-error");
@@ -53,7 +51,6 @@ function validateConfirmPassword() {
   return true;
 }
 
-// Function to validate Email field
 function validateEmail() {
   var emailInput = document.getElementById("email");
   var emailError = document.getElementById("email-error");
@@ -71,7 +68,6 @@ function validateEmail() {
   return true;
 }
 
-// Function to validate Phone Number field
 function validatePhoneNumber() {
   var phoneNumberInput = document.getElementById("phone");
   var phoneNumberError = document.getElementById("phone-error");
@@ -89,7 +85,6 @@ function validatePhoneNumber() {
   return true;
 }
 
-// Function to validate Date of Birth field
 function validateDateOfBirth() {
   var dobInput = document.getElementById("dob");
   var dobError = document.getElementById("dob-error");
@@ -110,7 +105,6 @@ function validateDateOfBirth() {
   return true;
 }
 
-// Function to validate Aadhaar Number field
 function validateAadhaarNumber() {
   var aadhaarInput = document.getElementById("aadhaar");
   var aadhaarError = document.getElementById("aadhaar-error");
@@ -128,7 +122,6 @@ function validateAadhaarNumber() {
   return true;
 }
 
-// Function to handle form submission
 function submitForm(event) {
   event.preventDefault();
 
@@ -161,6 +154,5 @@ function resetForm() {
   }
 }
 
-// Event listeners
 document.getElementById("registration-form").addEventListener("submit", submitForm);
 document.getElementById("registration-form").addEventListener("reset", resetForm);
